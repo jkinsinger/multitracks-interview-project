@@ -1,13 +1,17 @@
 <!DOCTYPE html>
     <head>
-
+        <title>MultiTrack Interview Project</title>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
     </head>
 
     <body>
-        <h1>My Cart</h1>
+  
+        <div class="navbar">
+
+        </div>
         
         <div class="shopping-cart">
-            
+            <h1>My Cart</h1>
             <div class="column-labels">
                 <label class="product-image">Image</label>
                 <label class="product-title">Title</label>
@@ -77,5 +81,135 @@
 
 
         </div>
+
+        <div class="save-for-later">
+            <h4>Saved for later</h4>
+            <div class="column-labels-later">
+                <label class="product-image-later">Image</label>
+                <label class="product-title-later">Title</label>
+                <label class="product-composer-later">Composer</label>
+                <label class="product-type-later">Type</label>
+            </div>
+            
+            <div class="product-later">
+                <div class="product-image-later">
+                    <img src="images/graves_into_gardens.jpg">
+                </div>
+                <div class="product-title">
+                    Forever (Live Version)
+                </div>
+                <div class="product-composer">
+                    Kari Jobe
+                </div>
+                <div class="product-type">
+                    MultiTrack WAV
+                </div>
+                <div class="product-removal">
+                    <button class="remove-product">
+                        Remove
+                    </button>
+                </div>
+                <div class="add-to-cart">
+                    <button class="add-to-cart">
+                        Add To Cart
+                    </button>
+                </div>
+
+            <div class="product-later">
+                    <div class="product-image-later">
+                        <img src="images/graves_into_gardens.jpg">
+                    </div>
+                    <div class="product-title">
+                        In God We Trust
+                    </div>
+                    <div class="product-composer">
+                        Hillsong Worship
+                    </div>
+                    <div class="product-type">
+                        MultiTrack WAV
+                    </div>
+                    <div class="product-removal">
+                        <button class="remove-product">
+                            Remove
+                        </button>
+                    </div>
+                    <div class="add-to-cart">
+                        <button class="add-to-cart">
+                            Add To Cart
+                        </button>
+                    </div>
+            </div>
+
+            <div class="product-later">
+                        <div class="product-image-later">
+                            <img src="images/graves_into_gardens.jpg">
+                        </div>
+                        <div class="product-title">
+                            This Is Amazing Grace
+                        </div>
+                        <div class="product-composer">
+                            Phil Wickham
+                        </div>
+                        <div class="product-type">
+                            MultiTrack WAV
+                        </div>
+                        <div class="product-removal">
+                            <button class="remove-product">
+                                Remove
+                            </button>
+                        </div>
+                        <div class="add-to-cart">
+                            <button class="add-to-cart">
+                                Add To Cart
+                            </button>
+                        </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="order-summary">
+            <h1>Order Summary</h1>
+
+            <div class="own-credits">
+                <label>Credits in Account</label>
+                <p>234</p>
+            </div>
+
+            <div class="credits-required">
+                <div class="credits-required">
+                    <label>Credits Required </label>
+                    <div class="totals-value" id="cart-subtotal">41</div>
+                </div>
+                <!-- <p>Credits required</p> -->
+            </div>
+
+            <div class="promo-option">
+                <!-- add promo down click option -->
+            </div>
+
+            <div class="credits-required">
+                <div class="subtotal-credits">
+                    <label>Subtotal </label>
+                    <div class="totals-value" id="cart-subtotal">41</div>
+                </div>
+            </div>
+
+            <div class="tax">
+                <label>Tax</label>
+                <div class="tax-total">-</div>
+            </div>
+
+            <div class="final-total">
+                <label>TOTAL</label>
+                <div class="totals-value" id="cart-total">41</div>
+            </div>
+
+            <button class="checkout">Place Order</button>
+        </div>
+
+        <div class="footer">
+            
+        </div>
+
     </body>
 </html>

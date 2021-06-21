@@ -1,0 +1,10 @@
+$myColor: black;
+
+h1 {
+   color : $myColor;
+}
+
+// Adjustments for phone
+@media screen and (max-width:350px){
+    
+}
