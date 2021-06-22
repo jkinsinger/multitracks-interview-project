@@ -6,14 +6,17 @@
 
     <body>
   
-        <div class="navbar">
+        <header class="navbar">
         
-            <div class="logo"> 
-                <img src="images/multi-tracks logo.svg">
-            </div>
+
             
             <div class="navbar-left">
                 <ul>
+                    <li>
+                        <div class="logo"> 
+                            <img src="images/multi-tracks logo.svg">
+                        </div>
+                     </li>
                     <li class="navigation-links">Products</li>
                     <li class="navigation-links">Songs</li>
                     <li class="navigation-links">Sounds</li>
@@ -38,35 +41,38 @@
                         <a href="https://intercom.help/multitracks/en/">Help</a>
                     </li>
                     <li>
-                        Search
+                        <a href="#">Search</a>
                     </li>
                 </ul>
             </div>
         
-        </div>
+        </header>
         
         <div class="shopping-cart">
             <h1>My Cart</h1>
-            <div class="column-labels">
+            <!-- <div class="column-labels">
                 <label class="product-image">Image</label>
                 <label class="product-title">Title</label>
                 <label class="product-composer">Composer</label>
                 <label class="product-type">Type</label>
                 <label class="product-credits">Credits</label>
-                
                 <label class="product-removal">Remove</label>
                 <label class="product-later">Save For Later</label>
-                
+            </div>     -->
                 <div class="product">
                     <div class="product-image">
                         <img src="images/graves_into_gardens.jpg">
                     </div>
-                    <div class="product-title">
-                        Graves Into Gardens
+
+                    <div class="product-details">
+                        <div class="product-title">
+                            Graves Into Gardens
+                        </div>
+                        <div class="product-composer">
+                            Bethel Music
+                        </div>
                     </div>
-                    <div class="product-composer">
-                        Bethel Music
-                    </div>
+
                     <div class="product-type">
                         MultiTrack WAV
                     </div>
@@ -84,8 +90,8 @@
                         </button>
                     </div>
                 </div>
-
-                <div class="product">
+<br>
+                <!-- <div class="product">
                     <div class="product-image">
                         <img src="images/goodness_of_God.jpg">
                     </div>
@@ -111,13 +117,11 @@
                             Save for Later
                         </button>
                     </div>
-                </div>
+                </div> -->
             </div>
+        
 
-
-        </div>
-
-        <div class="save-for-later">
+        <!-- <div class="save-for-later">
             <h4>Saved for later</h4>
             <div class="column-labels-later">
                 <label class="product-image-later">Image</label>
@@ -200,7 +204,9 @@
                         </div>
             </div>
             </div>
-        </div>
+        </div> -->
+
+
 
         <div class="order-summary">
             <h1>Order Summary</h1>

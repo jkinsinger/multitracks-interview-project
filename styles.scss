@@ -1,10 +1,90 @@
 $myColor: black;
+$navbarColor: #919191;
+$font-default: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$color-border: #eee;
+$color-label: #aaa;
+$primary-color: #ffffff;
+$font-bold: 'HelveticaNeue-Medium', 'Helvetica Neue Medium';
 
-h1 {
-   color : $myColor;
+
+.order-summary {
+    position: sticky;
+    height: 75%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    right: 0;
+    background-color: $primary-color;
+    // overflow-x: hidden;
 }
 
-// Adjustments for phone
-@media screen and (max-width:350px){
-    
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
 }
+
+.navbar {
+    background-color: $primary-color;
+    display: flex;
+    align-items: center;
+
+    .navbar-left {
+        justify-content: flex-start;
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            flex-basis: 300px;
+            align-items: center;
+            color: #fff;
+        }
+        li {
+            float: left;
+            display: block;
+            color: $navbarColor;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px !important;
+        }
+
+    }
+
+    .navbar-right {
+        justify-content: flex-end;
+        margin-left: 500px !important;
+
+        ul {
+            list-style-type: none;
+            // float: right;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            flex-basis: 300px;
+            align-items: center;
+
+
+        }
+        li {
+            display: block;
+            float: left;
+            color: $navbarColor;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            overflow: hidden;
+            font-size: 20px !important;
+        }
+
+        a {
+            text-decoration: none;
+            color: $navbarColor !important;
+        }
+    }
+}
+
+// // Adjustments for phone
+// @media screen and(max-width:350px) {}
