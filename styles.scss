@@ -23,6 +23,72 @@ $font-bold: 'HelveticaNeue-Medium', 'Helvetica Neue Medium';
     margin-left: 200px;
     padding-left: 20px;
 }
+.product {
+    // border: solid 1px #ff0000;
+    zoom: 1; /* IE6&7 */
+}
+
+.product:before,
+.product:after {
+    content: "";
+    display: table;
+}
+
+.product:after {
+    clear: both;
+}
+
+.product-image {
+    float: left;
+    width: 10%;
+}
+.product-details {
+    float: left;
+    width: 15%;
+}
+.product-type {
+    float: left;
+    width: 20%;
+}
+
+.product-options {
+    float: left;
+    width: 10%;
+}
+
+.product-later {
+    // border: solid 1px #ff0000;
+    zoom: 1; /* IE6&7 */
+}
+
+.product-later:before,
+.product-later:after {
+    content: "";
+    display: table;
+}
+
+.product-later:after {
+    clear: both;
+}
+
+.product-image {
+    float: left;
+    width: 10%;
+}
+.product-details {
+    float: left;
+    width: 15%;
+}
+.product-type {
+    float: left;
+    width: 20%;
+}
+
+.product-options {
+    float: left;
+    width: 10%;
+}
+
 
 .navbar {
     background-color: $primary-color;
