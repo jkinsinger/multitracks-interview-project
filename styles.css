@@ -49,6 +49,19 @@ a {
   width: 25%;
   margin-right: -325px;
 }
+.product-image img {
+  height: 100px;
+  width: auto;
+}
+
+.product-image-saved {
+  float: left;
+  width: 5%;
+}
+.product-image-saved img {
+  height: 75px;
+  width: auto;
+}
 
 .product-details {
   float: left;
@@ -125,6 +138,20 @@ a {
 .navbar .navbar-right a {
   text-decoration: none;
   color: #919191 !important;
+}
+
+/* Make more adjustments for phone */
+@media screen and (max-width: 650px) {
+  .product-image img {
+    height: 90px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 350px) {
+  .product-image img {
+    height: 75px;
+    width: auto;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
